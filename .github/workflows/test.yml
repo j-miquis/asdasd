@@ -1,0 +1,12 @@
+name: First Push
+on:
+  create:
+    branches:
+      - 'master'
+      - 'main'
+jobs:
+  first-push:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "first"
+    
